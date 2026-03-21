@@ -1,8 +1,7 @@
 ---
-title: ""
-format:
-  html:
-    page-layout: full
+title: "BetaPlus Computer Club"
+format: html
+engine: markdown
 ---
 
 ```{=html}
@@ -23,23 +22,15 @@ format:
 
 ## Upcoming Events {.section-heading}
 
-```{python}
-#| echo: false
-import yaml
-from IPython.display import display, HTML
-
-with open('events.yml') as f:
-    events = yaml.safe_load(f)
-
-rows = ''.join(f'<tr><td>{e["date"]}</td><td>{e["event"]}</td></tr>' for e in events)
-html = f'''
-<table class="events-table">
-  <thead><tr><th>Date</th><th>Event</th></tr></thead>
-  <tbody>{rows}</tbody>
-</table>
-'''
-display(HTML(html))
-```
+| Date       | Event                    |
+|------------|--------------------------|
+| Tue 24 Mar | Tinkers Study Group      |
+| Wed 25 Mar | Club Social Chat         |
+| Tue 31 Mar | Club Meeting             |
+| Tue 7 Apr  | Club Social Chat         |
+| Wed 8 Apr  | Apple Study Group        |
+| Fri 10 Apr | Web Study Group          |
+| Tue 14 Apr | Club Meeting             |
 
 ## The Club {.section-heading}
 
