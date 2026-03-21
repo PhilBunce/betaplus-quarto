@@ -1,0 +1,125 @@
+/*-- scss:defaults --*/
+$primary:   #065A82;
+$secondary: #21BECE;
+$font-family-sans-serif: 'Segoe UI', Helvetica, Arial, sans-serif;
+
+/*-- scss:rules --*/
+
+/* Hero */
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.hero-wrapper picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-buttons {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero-buttons .btn {
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+@media (max-width: 767.98px) {
+  .hero-buttons {
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+  .hero-buttons .btn {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.7rem;
+  }
+}
+
+/* Events table */
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.events-table th {
+  background-color: $primary;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.events-table td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid #dde;
+}
+
+.events-table tr:nth-child(even) td {
+  background-color: #f0f7fb;
+}
+
+/* Accordion */
+.accordion-button:not(.collapsed) {
+  background-color: $primary;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+
+.accordion-button {
+  font-weight: 600;
+  color: $primary;
+}
+
+.accordion-item {
+  border: 1px solid #c8dde8;
+  margin-bottom: 0.25rem;
+  border-radius: 0.375rem !important;
+  overflow: hidden;
+}
+
+/* Footer */
+.site-footer {
+  background-color: $primary;
+  color: #cce4ef;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
+
+.site-footer a {
+  color: #21BECE;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* General spacing */
+.content-section {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+h2.section-heading {
+  color: $primary;
+  border-bottom: 2px solid $secondary;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
