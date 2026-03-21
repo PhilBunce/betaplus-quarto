@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "BetaPlus Computer Club"
+  favicon: "https://betaplus.org.uk/favicon.ico"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: false
+    page-layout: full
