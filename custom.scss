@@ -45,6 +45,19 @@ $font-family-sans-serif: 'Segoe UI', Helvetica, Arial, sans-serif;
   }
 }
 
+/* Janet photo */
+.photo-wrapper {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.photo-wrapper picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Events table */
 .events-table {
   width: 100%;
