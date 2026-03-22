@@ -5,16 +5,25 @@ engine: markdown
 ---
 
 ```{=html}
-<!-- Hero -->
+<!-- Hero: BetaPlus banner -->
 <div class="hero-wrapper">
   <picture>
-    <source media="(max-width: 767px)" srcset="https://betaplus.org.uk/public/janet3-512x280.jpg">
-    <img src="https://betaplus.org.uk/public/pf-banner-512.jpg" alt="BetaPlus Computer Club">
+    <source media="(max-width: 640px)" srcset="pf-banner-512.jpg">
+    <source media="(max-width: 1280px)" srcset="pf-banner-1024b1.jpg">
+    <img src="pf-banner-2048b.jpg" alt="BetaPlus Computer Club">
   </picture>
   <div class="hero-buttons">
     <a href="https://betaplus.org.uk/login" class="btn btn-primary">Login</a>
     <a href="https://betaplus.org.uk/join" class="btn" style="background-color:#21BECE;color:#fff;">Join</a>
   </div>
+</div>
+<!-- Janet photo -->
+<div class="photo-wrapper">
+  <picture>
+    <source media="(max-width: 640px)" srcset="janet3-512x280.jpg">
+    <source media="(max-width: 1280px)" srcset="janet3-1024x430.jpg">
+    <img src="janet3-2048x625.jpg" alt="Janet at BetaPlus">
+  </picture>
 </div>
 ```
 
