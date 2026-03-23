@@ -80,7 +80,7 @@ engine: markdown
     </h2>
     <div id="club3" class="accordion-collapse collapse" data-bs-parent="#accordionClub">
       <div class="accordion-body">
-        <p>The annual membership fee is <strong>&pound;50</strong>, running from September to June. This covers all main meetings and study group sessions throughout the year.</p>
+        <p>The annual membership fee is <strong>&pound;55</strong>, running from September to June. This covers all main meetings and study group sessions throughout the year.</p>
       </div>
     </div>
   </div>
